@@ -41,9 +41,27 @@ section {
   margin-bottom: 2rem;
 }
 
+.project-screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-image {
+  max-width: 120px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 footer {
-  background: #1e90ff;
+  background: #871eff;
   color: white;
   text-align: center;
   padding: 1rem;
+}
+
+p {
+  text-indent: 2em;
 }
